@@ -158,6 +158,21 @@ int main(int argc, char *argv[])
   
 } // end of main()
 
+int indexOfClosest(double x, double y, double coords[11][2]) {
+  double minDist = 99999999, dist;
+  double dx, dy;
+  int idx = -1;
+  for (int i = 0; i < 11; i++) {
+    dx = x-coords[i][0];
+    dy = y-coords[i][1];
+    dist = sqrt(dx*dx+dy*dy);
+    if (dist < minDist) {
+      minDist = dist;
+      idx = i;
+    }
+  } 
+  return idx;
+}
 
 /**
  * readPosition()
