@@ -25,6 +25,7 @@ using namespace PlayerCc;
 player_pose2d_t readPosition(LocalizeProxy& lp);
 void printLaserData(LaserProxy& sp);
 void printRobotData(BumperProxy& bp, player_pose2d_t pose);
+int indexOfClosest(double, double, double[11][2]);
 
 /**
  * main()
