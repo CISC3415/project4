@@ -25,7 +25,6 @@ using namespace PlayerCc;
 player_pose2d_t readPosition(LocalizeProxy& lp);
 void printLaserData(LaserProxy& sp);
 void printRobotData(BumperProxy& bp, player_pose2d_t pose);
-int indexOfClosest(double, double, double[11][2]);
 
 /**
  * main()
@@ -77,74 +76,46 @@ int main(int argc, char *argv[])
       printRobotData(bp, pose);
       
       // If either bumper is pressed, stop. Otherwise just go forwards
-
-      curr_x = pose.px;
-      curr_y = pose.py;
-      curr_a = pose.pa;
-      // if (curr_a < 0) curr_a = 2*M_PI + curr_a;
-      
       if (bumped) {
-        if (counter > 15) {
+        if (counter < 15) {
+          speed = -0.5;
+          turnate = 0.0;
+        } else {
           counter = 0;
           bumped = 0;
-          speed = 0;
-        } else {
-          speed = -0.5;
         }
-        counter++;
-      } else if (finding_angle) {
-        targ_x = coords[next_coord][0];
-        targ_y = coords[next_coord][1];
-        targ_a = atan2(targ_y-curr_y, targ_x-curr_x);           
-        angle_away = rtod(targ_a)-rtod(curr_a);
-        if (abs(angle_away) < 1) {
-          turnrate = 0;
-          speed = 1.0;
-          finding_angle = 0;
-          traveling = 1;
-        } else {
-          if (angle_away < 0) turnrate = -0.4;
-          else turnrate = 0.4;
-          speed = 0;
-        }
-      } else if (traveling) {
-        dx = curr_x-targ_x;
-        dy = curr_y-targ_y;
-        dist_away = sqrt(dx*dx+dy*dy);
-        speed = 1.0;
-        turnrate = 0.0;
-        if (dist_away < 0.5) {
-          started = 1;
+        counter ++;
+      } else if(bp[0] || bp[1]){
+	speed= 0;
+	turnrate= 0;
+      }  else {
+        double totaldist = sp.MinLeft() + sp.MinRight(); 
+        
+        // If distance of LEFT+RIGHT is less than 0.8, we are right
+        // in front of a wall, so STOP HERE!
+        if (totaldist > 0 && totaldist < 0.8) {
+          turnrate = 0.0;
           speed = 0.0;
-          traveling = 0;
-          arrived = 1;
-        }
-      } else if (arrived) {
-        speed = 0.0;
-        turnrate = 0.0;
-        curr_coord = next_coord;
-        next_coord = map[curr_coord];
-        if (next_coord == -1) {
-          pp.SetSpeed(0, 0);
-          break;
-        }
-        finding_angle = 1;
-        arrived = 0;
-      } else if (bp[0] || bp[1] || pp.GetStall() || started) {
-        if (started && abs(curr_x+6)<0.01 && abs(curr_y+6)<0.01) {
-          arrived = 1;  
+        // If distance of LEFT+RIGHT is less than 2.1, we are close
+        // to the wall, so swap turnrates and SLOW DOWN!
+        // (This prevents circular motion at the goal zone) 
+        } else if (totaldist > 0 && totaldist < 2.1) {
+          speed = 0.5;
+          if (sp.MinLeft() < sp.MinRight()) {
+            turnrate = 0.8;
+          } else {
+            turnrate = -0.8;
+          }
+        // If there are no limiations, stay evenly in the middle
+        // by turning TOWARDS the further wall and closing the gap.
         } else {
-          if (bp[0] || bp[1] || pp.GetStall())
-            bumped = 1;
-          next_coord = indexOfClosest(curr_x, curr_y, coords);
-          finding_angle = 1;
-          turnrate = 0;
-          speed = 0;
-          started = 0;
+          speed = 1.0;
+          if (sp.MinLeft() < sp.MinRight()) {
+            turnrate = -0.8;
+          } else {
+            turnrate = 0.8;
+          }
         }
-      } else {
-        speed = -0.5;
-        turnrate = 0.0;
       }     
 
       // What are we doing?
