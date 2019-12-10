@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
   double turnrate;         // How fast do we want the robot to turn?
   double curr_x, curr_y, curr_a;
   double targ_x=0, targ_y=0, targ_a=0;
-  double dist_away, dx, dy;
+  double angle_away, dist_away, dx, dy;
   player_pose2d_t  pose;   // For handling localization data
 
   // Set up proxies. These are the names we will use to connect to 
@@ -85,13 +85,18 @@ int main(int argc, char *argv[])
         }
         counter++;
       } else if (finding_angle) {
-        if (abs(rtod(targ_a)-rtod(curr_a)) < 1) {
+        targ_x = coords[next_coord][0];
+        targ_y = coords[next_coord][1];
+        targ_a = atan2(targ_y-curr_y, targ_x-curr_x);           
+        angle_away = rtod(targ_a)-rtod(curr_a);
+        if (abs(angle_away) < 1) {
           turnrate = 0;
           speed = 1.0;
           finding_angle = 0;
           traveling = 1;
         } else {
-          turnrate = 0.4;
+          if (angle_away < 0) turnrate = -0.4;
+          else turnrate = 0.4;
           speed = 0;
         }
       } else if (traveling) {
@@ -115,9 +120,6 @@ int main(int argc, char *argv[])
           pp.SetSpeed(0, 0);
           break;
         }
-        targ_x = coords[next_coord][0];
-        targ_y = coords[next_coord][1];
-        targ_a = atan2(targ_y-curr_y, targ_x-curr_x);           
         finding_angle = 1;
         arrived = 0;
       } else if (bp[0] || bp[1] || pp.GetStall() || started) {
@@ -128,9 +130,6 @@ int main(int argc, char *argv[])
             bumped = 1;
           next_coord = indexOfClosest(curr_x, curr_y, coords);
           finding_angle = 1;
-          targ_x = coords[next_coord][0];
-          targ_y = coords[next_coord][1];
-          targ_a = atan2(targ_y-curr_y, targ_x-curr_x);           
           turnrate = 0;
           speed = 0;
           started = 0;
