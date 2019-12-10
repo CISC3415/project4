@@ -33,9 +33,16 @@ void printRobotData(BumperProxy& bp, player_pose2d_t pose);
 
 int main(int argc, char *argv[])
 {  
-
+  double coords[11][2] = {{-6,-6},{1,-5},{3.7,-7.3},{-6.5,-2},{-7,5.5},{-5,7},{-4,5.5},{5,5.5},{5,0},{5,-3.5},{1.5,-7.8}};
+  int map[11] = {9,9,9,1,6,6,7,8,9,-1,2};
   // Variables
   int counter = 0;
+  int started = 1, arrived = 0, bumped = 0;
+  int finding_angle = 0, traveling = 0;
+  int curr_coord = 0, next_coord = 0;
+  double curr_x, curr_y, curr_a;
+  double targ_x=0, targ_y=0, targ_a=0;
+  double angle_away, dist_away, dx, dy;
   double speed;            // How fast do we want the robot to go forwards?
   double turnrate;         // How fast do we want the robot to turn?
   player_pose2d_t  pose;   // For handling localization data
@@ -70,13 +77,73 @@ int main(int argc, char *argv[])
       
       // If either bumper is pressed, stop. Otherwise just go forwards
 
-      if(bp[0] || bp[1]){
-	speed= 0;
-	turnrate= 0;
-      } 
-      else {
-	speed=.1;
-        turnrate = 0;
+      curr_x = pose.px;
+      curr_y = pose.py;
+      curr_a = pose.pa;
+      // if (curr_a < 0) curr_a = 2*M_PI + curr_a;
+      
+      if (bumped) {
+        if (counter > 15) {
+          counter = 0;
+          bumped = 0;
+          speed = 0;
+        } else {
+          speed = -0.5;
+        }
+        counter++;
+      } else if (finding_angle) {
+        targ_x = coords[next_coord][0];
+        targ_y = coords[next_coord][1];
+        targ_a = atan2(targ_y-curr_y, targ_x-curr_x);           
+        angle_away = rtod(targ_a)-rtod(curr_a);
+        if (abs(angle_away) < 1) {
+          turnrate = 0;
+          speed = 1.0;
+          finding_angle = 0;
+          traveling = 1;
+        } else {
+          if (angle_away < 0) turnrate = -0.4;
+          else turnrate = 0.4;
+          speed = 0;
+        }
+      } else if (traveling) {
+        dx = curr_x-targ_x;
+        dy = curr_y-targ_y;
+        dist_away = sqrt(dx*dx+dy*dy);
+        speed = 1.0;
+        turnrate = 0.0;
+        if (dist_away < 0.5) {
+          started = 1;
+          speed = 0.0;
+          traveling = 0;
+          arrived = 1;
+        }
+      } else if (arrived) {
+        speed = 0.0;
+        turnrate = 0.0;
+        curr_coord = next_coord;
+        next_coord = map[curr_coord];
+        if (next_coord == -1) {
+          pp.SetSpeed(0, 0);
+          break;
+        }
+        finding_angle = 1;
+        arrived = 0;
+      } else if (bp[0] || bp[1] || pp.GetStall() || started) {
+        if (started && abs(curr_x+6)<0.01 && abs(curr_y+6)<0.01) {
+          arrived = 1;  
+        } else {
+          if (bp[0] || bp[1] || pp.GetStall())
+            bumped = 1;
+          next_coord = indexOfClosest(curr_x, curr_y, coords);
+          finding_angle = 1;
+          turnrate = 0;
+          speed = 0;
+          started = 0;
+        }
+      } else {
+        speed = -0.5;
+        turnrate = 0.0;
       }     
 
       // What are we doing?
