@@ -1,0 +1,4011 @@
+Speed: 1
+Turn rate: -0.8
+Counter: 0
+
+Speed: 1
+Turn rate: 0.4
+Counter: 1
+
+Speed: 1
+Turn rate: 0.4
+Counter: 2
+
+Speed: 1
+Turn rate: 0.4
+Counter: 3
+
+Speed: 1
+Turn rate: 0.4
+Counter: 4
+
+Speed: 1
+Turn rate: 0.4
+Counter: 5
+
+Speed: 1
+Turn rate: 0.4
+Counter: 6
+
+Speed: 1
+Turn rate: 0.4
+Counter: 7
+
+Speed: 1
+Turn rate: 0.4
+Counter: 8
+
+Speed: 1
+Turn rate: 0.4
+Counter: 9
+
+Speed: 1
+Turn rate: 0.8
+Counter: 10
+
+Speed: 1
+Turn rate: 0.8
+Counter: 11
+
+Speed: 1
+Turn rate: 0.8
+Counter: 12
+
+Speed: 1
+Turn rate: 0.8
+Counter: 13
+
+Speed: 1
+Turn rate: 0.8
+Counter: 14
+
+Speed: 1
+Turn rate: 0.8
+Counter: 15
+
+Speed: 1
+Turn rate: 0.8
+Counter: 16
+
+Speed: 1
+Turn rate: 0.8
+Counter: 17
+
+Speed: 1
+Turn rate: 0.8
+Counter: 18
+
+Speed: 1
+Turn rate: 0.8
+Counter: 19
+
+Speed: 1
+Turn rate: 0.8
+Counter: 20
+
+Speed: 1
+Turn rate: 0.8
+Counter: 21
+
+Speed: 1
+Turn rate: 0.8
+Counter: 22
+
+Speed: 1
+Turn rate: 0.8
+Counter: 23
+
+Speed: 1
+Turn rate: 0.8
+Counter: 24
+
+Speed: 1
+Turn rate: 0.8
+Counter: 25
+
+Speed: 1
+Turn rate: 0.8
+Counter: 26
+
+Speed: 1
+Turn rate: 0.8
+Counter: 27
+
+Speed: 1
+Turn rate: 0.8
+Counter: 28
+
+Speed: 1
+Turn rate: 0.8
+Counter: 29
+
+Speed: 1
+Turn rate: 0.8
+Counter: 30
+
+Speed: 1
+Turn rate: 0.4
+Counter: 31
+
+Speed: 1
+Turn rate: 0.4
+Counter: 32
+
+Speed: 1
+Turn rate: 0.4
+Counter: 33
+
+Speed: 1
+Turn rate: 0.4
+Counter: 34
+
+Speed: 1
+Turn rate: 0.4
+Counter: 35
+
+Speed: 1
+Turn rate: -0.4
+Counter: 36
+
+Speed: 1
+Turn rate: 0.4
+Counter: 37
+
+Speed: 1
+Turn rate: -0.4
+Counter: 38
+
+Speed: 1
+Turn rate: 0.4
+Counter: 39
+
+Speed: 1
+Turn rate: 0.4
+Counter: 40
+
+Speed: 1
+Turn rate: -0.4
+Counter: 41
+
+Speed: 1
+Turn rate: 0.4
+Counter: 42
+
+Speed: 1
+Turn rate: 0.4
+Counter: 43
+
+Speed: 1
+Turn rate: 0.4
+Counter: 44
+
+Speed: 1
+Turn rate: 0.4
+Counter: 45
+
+Speed: 1
+Turn rate: 0.4
+Counter: 46
+
+Speed: 1
+Turn rate: 0.4
+Counter: 47
+
+Speed: 1
+Turn rate: 0.4
+Counter: 48
+
+Speed: 1
+Turn rate: 0.4
+Counter: 49
+
+Speed: 1
+Turn rate: 0.4
+Counter: 50
+
+Speed: 1
+Turn rate: -0.4
+Counter: 51
+
+Speed: 1
+Turn rate: -0.4
+Counter: 52
+
+Speed: 1
+Turn rate: -0.4
+Counter: 53
+
+Speed: 1
+Turn rate: -0.4
+Counter: 54
+
+Speed: 1
+Turn rate: -0.4
+Counter: 55
+
+Speed: 1
+Turn rate: -0.4
+Counter: 56
+
+Speed: 1
+Turn rate: -0.4
+Counter: 57
+
+Speed: 1
+Turn rate: -0.4
+Counter: 58
+
+Speed: 1
+Turn rate: -0.4
+Counter: 59
+
+Speed: 1
+Turn rate: -0.4
+Counter: 60
+
+Speed: 1
+Turn rate: -0.4
+Counter: 61
+
+Speed: 1
+Turn rate: -0.4
+Counter: 62
+
+Speed: 1
+Turn rate: -0.4
+Counter: 63
+
+Speed: 1
+Turn rate: -0.4
+Counter: 64
+
+Speed: 1
+Turn rate: -0.4
+Counter: 65
+
+Speed: 1
+Turn rate: -0.4
+Counter: 66
+
+Speed: 1
+Turn rate: -0.4
+Counter: 67
+
+Speed: 1
+Turn rate: -0.4
+Counter: 68
+
+Speed: 1
+Turn rate: -0.4
+Counter: 69
+
+Speed: 1
+Turn rate: -0.4
+Counter: 70
+
+Speed: 1
+Turn rate: -0.4
+Counter: 71
+
+Speed: 1
+Turn rate: -0.4
+Counter: 72
+
+Speed: 1
+Turn rate: -0.4
+Counter: 73
+
+Speed: 1
+Turn rate: -0.4
+Counter: 74
+
+Speed: 1
+Turn rate: -0.4
+Counter: 75
+
+Speed: 1
+Turn rate: -0.4
+Counter: 76
+
+Speed: 1
+Turn rate: -0.4
+Counter: 77
+
+Speed: 1
+Turn rate: -0.4
+Counter: 78
+
+Speed: 1
+Turn rate: -0.4
+Counter: 79
+
+Speed: 1
+Turn rate: -0.4
+Counter: 80
+
+Speed: 1
+Turn rate: -0.4
+Counter: 81
+
+Speed: 1
+Turn rate: -0.4
+Counter: 82
+
+Speed: 1
+Turn rate: -0.4
+Counter: 83
+
+Speed: 1
+Turn rate: -0.4
+Counter: 84
+
+Speed: 1
+Turn rate: -0.4
+Counter: 85
+
+Speed: 1
+Turn rate: -0.4
+Counter: 86
+
+Speed: 1
+Turn rate: -0.4
+Counter: 87
+
+Speed: 1
+Turn rate: -0.4
+Counter: 88
+
+Speed: 1
+Turn rate: -0.4
+Counter: 89
+
+Speed: 1
+Turn rate: -0.4
+Counter: 90
+
+Speed: 1
+Turn rate: -0.4
+Counter: 91
+
+Speed: 1
+Turn rate: -0.4
+Counter: 92
+
+Speed: 1
+Turn rate: -0.4
+Counter: 93
+
+Speed: 1
+Turn rate: -0.4
+Counter: 94
+
+Speed: 1
+Turn rate: -0.4
+Counter: 95
+
+Speed: 1
+Turn rate: -0.4
+Counter: 96
+
+Speed: 1
+Turn rate: -0.4
+Counter: 97
+
+Speed: 1
+Turn rate: -0.4
+Counter: 98
+
+Speed: 1
+Turn rate: -0.8
+Counter: 99
+
+Speed: 1
+Turn rate: -0.8
+Counter: 100
+
+Speed: 1
+Turn rate: -0.8
+Counter: 101
+
+Speed: 1
+Turn rate: -0.8
+Counter: 102
+
+Speed: 1
+Turn rate: -0.8
+Counter: 103
+
+Speed: 1
+Turn rate: -0.8
+Counter: 104
+
+Speed: 1
+Turn rate: -0.8
+Counter: 105
+
+Speed: 1
+Turn rate: -0.8
+Counter: 106
+
+Speed: 1
+Turn rate: -0.8
+Counter: 107
+
+Speed: 1
+Turn rate: -0.4
+Counter: 108
+
+Speed: 1
+Turn rate: -0.4
+Counter: 109
+
+Speed: 1
+Turn rate: 0.4
+Counter: 110
+
+Speed: 1
+Turn rate: 0.4
+Counter: 111
+
+Speed: 1
+Turn rate: 0.4
+Counter: 112
+
+Speed: 1
+Turn rate: 0.4
+Counter: 113
+
+Speed: 1
+Turn rate: 0.4
+Counter: 114
+
+Speed: 1
+Turn rate: 0.4
+Counter: 115
+
+Speed: 1
+Turn rate: 0.4
+Counter: 116
+
+Speed: 1
+Turn rate: 0.4
+Counter: 117
+
+Speed: 1
+Turn rate: 0.4
+Counter: 118
+
+Speed: 1
+Turn rate: 0.4
+Counter: 119
+
+Speed: 1
+Turn rate: 0.4
+Counter: 120
+
+Speed: 1
+Turn rate: 0.4
+Counter: 121
+
+Speed: 1
+Turn rate: 0.4
+Counter: 122
+
+Speed: 1
+Turn rate: 0.4
+Counter: 123
+
+Speed: 1
+Turn rate: 0.8
+Counter: 124
+
+Speed: 1
+Turn rate: 0.8
+Counter: 125
+
+Speed: 1
+Turn rate: 0.8
+Counter: 126
+
+Speed: 1
+Turn rate: 0.8
+Counter: 127
+
+Speed: 1
+Turn rate: 0.8
+Counter: 128
+
+Speed: 1
+Turn rate: 0.8
+Counter: 129
+
+Speed: 1
+Turn rate: 0.8
+Counter: 130
+
+Speed: 1
+Turn rate: 0.8
+Counter: 131
+
+Speed: 1
+Turn rate: 0.8
+Counter: 132
+
+Speed: 1
+Turn rate: 0.8
+Counter: 133
+
+Speed: 1
+Turn rate: 0.8
+Counter: 134
+
+Speed: 1
+Turn rate: 0.8
+Counter: 135
+
+Speed: 1
+Turn rate: 0.8
+Counter: 136
+
+Speed: 1
+Turn rate: -0.4
+Counter: 137
+
+Speed: 1
+Turn rate: -0.4
+Counter: 138
+
+Speed: 1
+Turn rate: -0.4
+Counter: 139
+
+Speed: 1
+Turn rate: -0.4
+Counter: 140
+
+Speed: 1
+Turn rate: -0.4
+Counter: 141
+
+Speed: 1
+Turn rate: -0.4
+Counter: 142
+
+Speed: 1
+Turn rate: 0.4
+Counter: 143
+
+Speed: 1
+Turn rate: 0.4
+Counter: 144
+
+Speed: 1
+Turn rate: 0.4
+Counter: 145
+
+Speed: 1
+Turn rate: 0.4
+Counter: 146
+
+Speed: 1
+Turn rate: 0.4
+Counter: 147
+
+Speed: 1
+Turn rate: 0.4
+Counter: 148
+
+Speed: 1
+Turn rate: 0.4
+Counter: 149
+
+Speed: 1
+Turn rate: 0.4
+Counter: 150
+
+Speed: 1
+Turn rate: -0.4
+Counter: 151
+
+Speed: 1
+Turn rate: -0.4
+Counter: 152
+
+Speed: 1
+Turn rate: 0.4
+Counter: 153
+
+Speed: 1
+Turn rate: 0.4
+Counter: 154
+
+Speed: 1
+Turn rate: -0.4
+Counter: 155
+
+Speed: 1
+Turn rate: -0.4
+Counter: 156
+
+Speed: 1
+Turn rate: 0.4
+Counter: 157
+
+Speed: 1
+Turn rate: 0.4
+Counter: 158
+
+Speed: 1
+Turn rate: 0.4
+Counter: 159
+
+Speed: 1
+Turn rate: 0.4
+Counter: 160
+
+Speed: 1
+Turn rate: 0.4
+Counter: 161
+
+Speed: 1
+Turn rate: 0.4
+Counter: 162
+
+Speed: 1
+Turn rate: 0.4
+Counter: 163
+
+Speed: 1
+Turn rate: 0.4
+Counter: 164
+
+Speed: 1
+Turn rate: 0.4
+Counter: 165
+
+Speed: 1
+Turn rate: 0.4
+Counter: 166
+
+Speed: 1
+Turn rate: 0.4
+Counter: 167
+
+Speed: 1
+Turn rate: 0.4
+Counter: 168
+
+Speed: 1
+Turn rate: 0.4
+Counter: 169
+
+Speed: 1
+Turn rate: 0.4
+Counter: 170
+
+Speed: 1
+Turn rate: 0.4
+Counter: 171
+
+Speed: 1
+Turn rate: 0.4
+Counter: 172
+
+Speed: 1
+Turn rate: 0.4
+Counter: 173
+
+Speed: 1
+Turn rate: 0.4
+Counter: 174
+
+Speed: 1
+Turn rate: 0.4
+Counter: 175
+
+Speed: 1
+Turn rate: 0.4
+Counter: 176
+
+Speed: 1
+Turn rate: 0.4
+Counter: 177
+
+Speed: 1
+Turn rate: 0.4
+Counter: 178
+
+Speed: 1
+Turn rate: 0.4
+Counter: 179
+
+Speed: 1
+Turn rate: 0.4
+Counter: 180
+
+Speed: 1
+Turn rate: 0.4
+Counter: 181
+
+Speed: 1
+Turn rate: 0.4
+Counter: 182
+
+Speed: 1
+Turn rate: 0.4
+Counter: 183
+
+Speed: 1
+Turn rate: 0.4
+Counter: 184
+
+Speed: 1
+Turn rate: 0.4
+Counter: 185
+
+Speed: 1
+Turn rate: 0.4
+Counter: 186
+
+Speed: 1
+Turn rate: 0.4
+Counter: 187
+
+Speed: 1
+Turn rate: 0.4
+Counter: 188
+
+Speed: 1
+Turn rate: 0.4
+Counter: 189
+
+Speed: 1
+Turn rate: 0.4
+Counter: 190
+
+Speed: 1
+Turn rate: 0.4
+Counter: 191
+
+Speed: 1
+Turn rate: 0.4
+Counter: 192
+
+Speed: 1
+Turn rate: 0.8
+Counter: 193
+
+Speed: 1
+Turn rate: 0.8
+Counter: 194
+
+Speed: 1
+Turn rate: 0.8
+Counter: 195
+
+Speed: 1
+Turn rate: 0.8
+Counter: 196
+
+Speed: 1
+Turn rate: 0.8
+Counter: 197
+
+Speed: 1
+Turn rate: 0.8
+Counter: 198
+
+Speed: 1
+Turn rate: 0.8
+Counter: 199
+
+Speed: 1
+Turn rate: 0.8
+Counter: 200
+
+Speed: 1
+Turn rate: 0.8
+Counter: 201
+
+Speed: 1
+Turn rate: 0.8
+Counter: 202
+
+Speed: 1
+Turn rate: 0.8
+Counter: 203
+
+Speed: 1
+Turn rate: 0.8
+Counter: 204
+
+Speed: 1
+Turn rate: 0.8
+Counter: 205
+
+Speed: 1
+Turn rate: 0.8
+Counter: 206
+
+Speed: 1
+Turn rate: -0.4
+Counter: 207
+
+Speed: 1
+Turn rate: -0.4
+Counter: 208
+
+Speed: 1
+Turn rate: -0.4
+Counter: 209
+
+Speed: 1
+Turn rate: -0.4
+Counter: 210
+
+Speed: 1
+Turn rate: -0.4
+Counter: 211
+
+Speed: 1
+Turn rate: -0.4
+Counter: 212
+
+Speed: 1
+Turn rate: -0.4
+Counter: 213
+
+Speed: 1
+Turn rate: -0.4
+Counter: 214
+
+Speed: 1
+Turn rate: -0.4
+Counter: 215
+
+Speed: 1
+Turn rate: -0.4
+Counter: 216
+
+Speed: 1
+Turn rate: -0.4
+Counter: 217
+
+Speed: 1
+Turn rate: -0.4
+Counter: 218
+
+Speed: 1
+Turn rate: -0.8
+Counter: 219
+
+Speed: 1
+Turn rate: -0.8
+Counter: 220
+
+Speed: 1
+Turn rate: -0.8
+Counter: 221
+
+Speed: 1
+Turn rate: -0.8
+Counter: 222
+
+Speed: 1
+Turn rate: -0.8
+Counter: 223
+
+Speed: 1
+Turn rate: -0.8
+Counter: 224
+
+Speed: 1
+Turn rate: -0.8
+Counter: 225
+
+Speed: 1
+Turn rate: -0.8
+Counter: 226
+
+Speed: 1
+Turn rate: -0.4
+Counter: 227
+
+Speed: 1
+Turn rate: -0.4
+Counter: 228
+
+Speed: 1
+Turn rate: -0.4
+Counter: 229
+
+Speed: 1
+Turn rate: -0.4
+Counter: 230
+
+Speed: 1
+Turn rate: 0.4
+Counter: 231
+
+Speed: 1
+Turn rate: 0.4
+Counter: 232
+
+Speed: 1
+Turn rate: 0.4
+Counter: 233
+
+Speed: 1
+Turn rate: 0.4
+Counter: 234
+
+Speed: 1
+Turn rate: 0.4
+Counter: 235
+
+Speed: 1
+Turn rate: 0.4
+Counter: 236
+
+Speed: 1
+Turn rate: 0.4
+Counter: 237
+
+Speed: 1
+Turn rate: 0.4
+Counter: 238
+
+Speed: 1
+Turn rate: 0.4
+Counter: 239
+
+Speed: 1
+Turn rate: 0.4
+Counter: 240
+
+Speed: 1
+Turn rate: 0.4
+Counter: 241
+
+Speed: 1
+Turn rate: 0.4
+Counter: 242
+
+Speed: 1
+Turn rate: 0.4
+Counter: 243
+
+Speed: 1
+Turn rate: 0.4
+Counter: 244
+
+Speed: 1
+Turn rate: 0.4
+Counter: 245
+
+Speed: 1
+Turn rate: 0.4
+Counter: 246
+
+Speed: 1
+Turn rate: 0.4
+Counter: 247
+
+Speed: 1
+Turn rate: 0.4
+Counter: 248
+
+Speed: 1
+Turn rate: 0.4
+Counter: 249
+
+Speed: 1
+Turn rate: 0.4
+Counter: 250
+
+Speed: 1
+Turn rate: 0.4
+Counter: 251
+
+Speed: 1
+Turn rate: 0.4
+Counter: 252
+
+Speed: 1
+Turn rate: -0.4
+Counter: 253
+
+Speed: 1
+Turn rate: -0.4
+Counter: 254
+
+Speed: 1
+Turn rate: -0.4
+Counter: 255
+
+Speed: 1
+Turn rate: -0.4
+Counter: 256
+
+Speed: 1
+Turn rate: 0.4
+Counter: 257
+
+Speed: 1
+Turn rate: 0.4
+Counter: 258
+
+Speed: 1
+Turn rate: 0.4
+Counter: 259
+
+Speed: 1
+Turn rate: 0.4
+Counter: 260
+
+Speed: 1
+Turn rate: 0.4
+Counter: 261
+
+Speed: 1
+Turn rate: 0.4
+Counter: 262
+
+Speed: 1
+Turn rate: 0.4
+Counter: 263
+
+Speed: 1
+Turn rate: 0.4
+Counter: 264
+
+Speed: 1
+Turn rate: -0.4
+Counter: 265
+
+Speed: 1
+Turn rate: -0.4
+Counter: 266
+
+Speed: 1
+Turn rate: -0.4
+Counter: 267
+
+Speed: 1
+Turn rate: -0.4
+Counter: 268
+
+Speed: 1
+Turn rate: -0.4
+Counter: 269
+
+Speed: 1
+Turn rate: -0.4
+Counter: 270
+
+Speed: 1
+Turn rate: -0.4
+Counter: 271
+
+Speed: 1
+Turn rate: -0.4
+Counter: 272
+
+Speed: 1
+Turn rate: -0.4
+Counter: 273
+
+Speed: 1
+Turn rate: -0.4
+Counter: 274
+
+Speed: 1
+Turn rate: -0.4
+Counter: 275
+
+Speed: 1
+Turn rate: -0.4
+Counter: 276
+
+Speed: 1
+Turn rate: -0.4
+Counter: 277
+
+Speed: 1
+Turn rate: -0.4
+Counter: 278
+
+Speed: 1
+Turn rate: -0.4
+Counter: 279
+
+Speed: 1
+Turn rate: -0.4
+Counter: 280
+
+Speed: 1
+Turn rate: -0.4
+Counter: 281
+
+Speed: 1
+Turn rate: 0.4
+Counter: 282
+
+Speed: 1
+Turn rate: 0.4
+Counter: 283
+
+Speed: 1
+Turn rate: 0.4
+Counter: 284
+
+Speed: 1
+Turn rate: 0.4
+Counter: 285
+
+Speed: 1
+Turn rate: 0.4
+Counter: 286
+
+Speed: 1
+Turn rate: -0.4
+Counter: 287
+
+Speed: 1
+Turn rate: -0.4
+Counter: 288
+
+Speed: 1
+Turn rate: 0.4
+Counter: 289
+
+Speed: 1
+Turn rate: 0.4
+Counter: 290
+
+Speed: 1
+Turn rate: 0.4
+Counter: 291
+
+Speed: 1
+Turn rate: 0.4
+Counter: 292
+
+Speed: 1
+Turn rate: 0.4
+Counter: 293
+
+Speed: 1
+Turn rate: 0.4
+Counter: 294
+
+Speed: 1
+Turn rate: 0.4
+Counter: 295
+
+Speed: 1
+Turn rate: 0.4
+Counter: 296
+
+Speed: 1
+Turn rate: 0.4
+Counter: 297
+
+Speed: 1
+Turn rate: 0.4
+Counter: 298
+
+Speed: 1
+Turn rate: 0.4
+Counter: 299
+
+Speed: 1
+Turn rate: 0.4
+Counter: 300
+
+Speed: 1
+Turn rate: 0.4
+Counter: 301
+
+Speed: 1
+Turn rate: 0.4
+Counter: 302
+
+Speed: 1
+Turn rate: 0.4
+Counter: 303
+
+Speed: 1
+Turn rate: 0.4
+Counter: 304
+
+Speed: 1
+Turn rate: 0.4
+Counter: 305
+
+Speed: 1
+Turn rate: 0.4
+Counter: 306
+
+Speed: 1
+Turn rate: 0.4
+Counter: 307
+
+Speed: 1
+Turn rate: 0.4
+Counter: 308
+
+Speed: 1
+Turn rate: 0.4
+Counter: 309
+
+Speed: 1
+Turn rate: 0.4
+Counter: 310
+
+Speed: 1
+Turn rate: 0.4
+Counter: 311
+
+Speed: 1
+Turn rate: 0.4
+Counter: 312
+
+Speed: 1
+Turn rate: 0.4
+Counter: 313
+
+Speed: 1
+Turn rate: 0.4
+Counter: 314
+
+Speed: 1
+Turn rate: 0.4
+Counter: 315
+
+Speed: 1
+Turn rate: 0.4
+Counter: 316
+
+Speed: 1
+Turn rate: 0.4
+Counter: 317
+
+Speed: 1
+Turn rate: 0.4
+Counter: 318
+
+Speed: 1
+Turn rate: 0.4
+Counter: 319
+
+Speed: 1
+Turn rate: 0.4
+Counter: 320
+
+Speed: 1
+Turn rate: 0.4
+Counter: 321
+
+Speed: 1
+Turn rate: 0.4
+Counter: 322
+
+Speed: 1
+Turn rate: 0.4
+Counter: 323
+
+Speed: 1
+Turn rate: 0.4
+Counter: 324
+
+Speed: 1
+Turn rate: 0.4
+Counter: 325
+
+Speed: 1
+Turn rate: 0.4
+Counter: 326
+
+Speed: 1
+Turn rate: 0.4
+Counter: 327
+
+Speed: 1
+Turn rate: 0.4
+Counter: 328
+
+Speed: 1
+Turn rate: 0.4
+Counter: 329
+
+Speed: 1
+Turn rate: 0.4
+Counter: 330
+
+Speed: 1
+Turn rate: 0.4
+Counter: 331
+
+Speed: 1
+Turn rate: 0.4
+Counter: 332
+
+Speed: 1
+Turn rate: 0.4
+Counter: 333
+
+Speed: 1
+Turn rate: 0.4
+Counter: 334
+
+Speed: 1
+Turn rate: 0.4
+Counter: 335
+
+Speed: 1
+Turn rate: 0.4
+Counter: 336
+
+Speed: 1
+Turn rate: 0.4
+Counter: 337
+
+Speed: 1
+Turn rate: 0.4
+Counter: 338
+
+Speed: 1
+Turn rate: 0.4
+Counter: 339
+
+Speed: 1
+Turn rate: 0.4
+Counter: 340
+
+Speed: 1
+Turn rate: 0.4
+Counter: 341
+
+Speed: 1
+Turn rate: 0.4
+Counter: 342
+
+Speed: 1
+Turn rate: 0.4
+Counter: 343
+
+Speed: 1
+Turn rate: 0.4
+Counter: 344
+
+Speed: 1
+Turn rate: 0.4
+Counter: 345
+
+Speed: 1
+Turn rate: 0.4
+Counter: 346
+
+Speed: 1
+Turn rate: 0.4
+Counter: 347
+
+Speed: 1
+Turn rate: 0.4
+Counter: 348
+
+Speed: 1
+Turn rate: 0.4
+Counter: 349
+
+Speed: 1
+Turn rate: 0.4
+Counter: 350
+
+Speed: 1
+Turn rate: 0.4
+Counter: 351
+
+Speed: 1
+Turn rate: 0.4
+Counter: 352
+
+Speed: 1
+Turn rate: 0.4
+Counter: 353
+
+Speed: 1
+Turn rate: 0.4
+Counter: 354
+
+Speed: 1
+Turn rate: 0.4
+Counter: 355
+
+Speed: 1
+Turn rate: 0.4
+Counter: 356
+
+Speed: 1
+Turn rate: -0.4
+Counter: 357
+
+Speed: 1
+Turn rate: -0.4
+Counter: 358
+
+Speed: 1
+Turn rate: -0.4
+Counter: 359
+
+Speed: 1
+Turn rate: -0.4
+Counter: 360
+
+Speed: 1
+Turn rate: -0.4
+Counter: 361
+
+Speed: 1
+Turn rate: -0.4
+Counter: 362
+
+Speed: 1
+Turn rate: -0.4
+Counter: 363
+
+Speed: 1
+Turn rate: -0.4
+Counter: 364
+
+Speed: 1
+Turn rate: -0.4
+Counter: 365
+
+Speed: 1
+Turn rate: -0.4
+Counter: 366
+
+Speed: 1
+Turn rate: -0.4
+Counter: 367
+
+Speed: 1
+Turn rate: -0.4
+Counter: 368
+
+Speed: 1
+Turn rate: -0.4
+Counter: 369
+
+Speed: 1
+Turn rate: -0.4
+Counter: 370
+
+Speed: 1
+Turn rate: -0.4
+Counter: 371
+
+Speed: 1
+Turn rate: -0.4
+Counter: 372
+
+Speed: 1
+Turn rate: -0.4
+Counter: 373
+
+Speed: 1
+Turn rate: -0.4
+Counter: 374
+
+Speed: 1
+Turn rate: -0.4
+Counter: 375
+
+Speed: 1
+Turn rate: -0.4
+Counter: 376
+
+Speed: 1
+Turn rate: -0.4
+Counter: 377
+
+Speed: 1
+Turn rate: -0.4
+Counter: 378
+
+Speed: 1
+Turn rate: -0.4
+Counter: 379
+
+Speed: 1
+Turn rate: -0.4
+Counter: 380
+
+Speed: 1
+Turn rate: -0.4
+Counter: 381
+
+Speed: 1
+Turn rate: -0.4
+Counter: 382
+
+Speed: 1
+Turn rate: -0.4
+Counter: 383
+
+Speed: 1
+Turn rate: 0.4
+Counter: 384
+
+Speed: 1
+Turn rate: 0.4
+Counter: 385
+
+Speed: 1
+Turn rate: 0.4
+Counter: 386
+
+Speed: 1
+Turn rate: 0.4
+Counter: 387
+
+Speed: 1
+Turn rate: 0.4
+Counter: 388
+
+Speed: 1
+Turn rate: 0.4
+Counter: 389
+
+Speed: 1
+Turn rate: -0.4
+Counter: 390
+
+Speed: 1
+Turn rate: 0.4
+Counter: 391
+
+Speed: 1
+Turn rate: 0.4
+Counter: 392
+
+Speed: 1
+Turn rate: 0.4
+Counter: 393
+
+Speed: 1
+Turn rate: -0.4
+Counter: 394
+
+Speed: 1
+Turn rate: 0.4
+Counter: 395
+
+Speed: 1
+Turn rate: 0.4
+Counter: 396
+
+Speed: 1
+Turn rate: 0.4
+Counter: 397
+
+Speed: 1
+Turn rate: 0.4
+Counter: 398
+
+Speed: 1
+Turn rate: 0.4
+Counter: 399
+
+Speed: 1
+Turn rate: 0.4
+Counter: 400
+
+Speed: 1
+Turn rate: 0.4
+Counter: 401
+
+Speed: 1
+Turn rate: -0.4
+Counter: 402
+
+Speed: 1
+Turn rate: -0.4
+Counter: 403
+
+Speed: 1
+Turn rate: -0.4
+Counter: 404
+
+Speed: 1
+Turn rate: -0.4
+Counter: 405
+
+Speed: 1
+Turn rate: -0.4
+Counter: 406
+
+Speed: 1
+Turn rate: -0.4
+Counter: 407
+
+Speed: 1
+Turn rate: -0.4
+Counter: 408
+
+Speed: 1
+Turn rate: -0.4
+Counter: 409
+
+Speed: 1
+Turn rate: -0.4
+Counter: 410
+
+Speed: 1
+Turn rate: -0.4
+Counter: 411
+
+Speed: 1
+Turn rate: -0.4
+Counter: 412
+
+Speed: 1
+Turn rate: -0.4
+Counter: 413
+
+Speed: 1
+Turn rate: -0.4
+Counter: 414
+
+Speed: 1
+Turn rate: -0.4
+Counter: 415
+
+Speed: 1
+Turn rate: -0.4
+Counter: 416
+
+Speed: 1
+Turn rate: -0.4
+Counter: 417
+
+Speed: 1
+Turn rate: -0.4
+Counter: 418
+
+Speed: 1
+Turn rate: -0.4
+Counter: 419
+
+Speed: 1
+Turn rate: -0.4
+Counter: 420
+
+Speed: 1
+Turn rate: -0.4
+Counter: 421
+
+Speed: 1
+Turn rate: -0.4
+Counter: 422
+
+Speed: 1
+Turn rate: -0.4
+Counter: 423
+
+Speed: 1
+Turn rate: -0.4
+Counter: 424
+
+Speed: 1
+Turn rate: -0.4
+Counter: 425
+
+Speed: 1
+Turn rate: -0.4
+Counter: 426
+
+Speed: 1
+Turn rate: -0.8
+Counter: 427
+
+Speed: 1
+Turn rate: -0.8
+Counter: 428
+
+Speed: 1
+Turn rate: -0.8
+Counter: 429
+
+Speed: 1
+Turn rate: -0.8
+Counter: 430
+
+Speed: 1
+Turn rate: -0.8
+Counter: 431
+
+Speed: 1
+Turn rate: -0.8
+Counter: 432
+
+Speed: 1
+Turn rate: -0.8
+Counter: 433
+
+Speed: 1
+Turn rate: -0.8
+Counter: 434
+
+Speed: 1
+Turn rate: -0.8
+Counter: 435
+
+Speed: 1
+Turn rate: -0.8
+Counter: 436
+
+Speed: 1
+Turn rate: -0.8
+Counter: 437
+
+Speed: 1
+Turn rate: -0.8
+Counter: 438
+
+Speed: 1
+Turn rate: -0.8
+Counter: 439
+
+Speed: 1
+Turn rate: -0.8
+Counter: 440
+
+Speed: 1
+Turn rate: -0.8
+Counter: 441
+
+Speed: 1
+Turn rate: -0.8
+Counter: 442
+
+Speed: 1
+Turn rate: -0.4
+Counter: 443
+
+Speed: 1
+Turn rate: -0.4
+Counter: 444
+
+Speed: 1
+Turn rate: -0.4
+Counter: 445
+
+Speed: 1
+Turn rate: -0.4
+Counter: 446
+
+Speed: 1
+Turn rate: -0.8
+Counter: 447
+
+Speed: 1
+Turn rate: -0.8
+Counter: 448
+
+Speed: 1
+Turn rate: -0.8
+Counter: 449
+
+Speed: 1
+Turn rate: -0.8
+Counter: 450
+
+Speed: 1
+Turn rate: -0.8
+Counter: 451
+
+Speed: 1
+Turn rate: -0.8
+Counter: 452
+
+Speed: 1
+Turn rate: -0.8
+Counter: 453
+
+Speed: 1
+Turn rate: -0.8
+Counter: 454
+
+Speed: 1
+Turn rate: -0.8
+Counter: 455
+
+Speed: 1
+Turn rate: -0.8
+Counter: 456
+
+Speed: 1
+Turn rate: -0.8
+Counter: 457
+
+Speed: 1
+Turn rate: -0.8
+Counter: 458
+
+Speed: 1
+Turn rate: -0.8
+Counter: 459
+
+Speed: 1
+Turn rate: -0.8
+Counter: 460
+
+Speed: 1
+Turn rate: -0.8
+Counter: 461
+
+Speed: 1
+Turn rate: -0.8
+Counter: 462
+
+Speed: 1
+Turn rate: -0.8
+Counter: 463
+
+Speed: 1
+Turn rate: -0.8
+Counter: 464
+
+Speed: 0
+Turn rate: 0
+Counter: 465
+
+Speed: 0.5
+Turn rate: 0
+Counter: 466
+
+Speed: 0
+Turn rate: 0
+Counter: 467
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 468
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 469
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 470
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 471
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 472
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 473
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 474
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 475
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 476
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 477
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 478
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 479
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 480
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 481
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 482
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 483
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 484
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 485
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 486
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 487
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 488
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 489
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 490
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 491
+
+Speed: 0.5
+Turn rate: 0
+Counter: 492
+
+Speed: 0
+Turn rate: 0
+Counter: 493
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 494
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 495
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 496
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 497
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 498
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 499
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 500
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 501
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 502
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 503
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 504
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 505
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 506
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 507
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 508
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 509
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 510
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 511
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 512
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 513
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 514
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 515
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 516
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 517
+
+Speed: 0.5
+Turn rate: 0
+Counter: 518
+
+Speed: 0
+Turn rate: 0
+Counter: 519
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 520
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 521
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 522
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 523
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 524
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 525
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 526
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 527
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 528
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 529
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 530
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 531
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 532
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 533
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 534
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 535
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 536
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 537
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 538
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 539
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 540
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 541
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 542
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 543
+
+Speed: 0.5
+Turn rate: 0
+Counter: 544
+
+Speed: 0
+Turn rate: 0
+Counter: 545
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 546
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 547
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 548
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 549
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 550
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 551
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 552
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 553
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 554
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 555
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 556
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 557
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 558
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 559
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 560
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 561
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 562
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 563
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 564
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 565
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 566
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 567
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 568
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 569
+
+Speed: 0.5
+Turn rate: 0
+Counter: 570
+
+Speed: 0
+Turn rate: 0
+Counter: 571
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 572
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 573
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 574
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 575
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 576
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 577
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 578
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 579
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 580
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 581
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 582
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 583
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 584
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 585
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 586
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 587
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 588
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 589
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 590
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 591
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 592
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 593
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 594
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 595
+
+Speed: 0.5
+Turn rate: 0
+Counter: 596
+
+Speed: 0
+Turn rate: 0
+Counter: 597
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 598
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 599
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 600
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 601
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 602
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 603
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 604
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 605
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 606
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 607
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 608
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 609
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 610
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 611
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 612
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 613
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 614
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 615
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 616
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 617
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 618
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 619
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 620
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 621
+
+Speed: 0.5
+Turn rate: 0
+Counter: 622
+
+Speed: 0
+Turn rate: 0
+Counter: 623
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 624
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 625
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 626
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 627
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 628
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 629
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 630
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 631
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 632
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 633
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 634
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 635
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 636
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 637
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 638
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 639
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 640
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 641
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 642
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 643
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 644
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 645
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 646
+
+Speed: -0.5
+Turn rate: -0.4
+Counter: 647
+
+Speed: 0.5
+Turn rate: 0
+Counter: 648
+
+Speed: 1
+Turn rate: -0.8
+Counter: 649
+
+Speed: 1
+Turn rate: -0.8
+Counter: 650
+
+Speed: 1
+Turn rate: -0.8
+Counter: 651
+
+Speed: 1
+Turn rate: -0.8
+Counter: 652
+
+Speed: 1
+Turn rate: -0.8
+Counter: 653
+
+Speed: 1
+Turn rate: -0.8
+Counter: 654
+
+Speed: 1
+Turn rate: -0.8
+Counter: 655
+
+Speed: 1
+Turn rate: -0.8
+Counter: 656
+
+Speed: 1
+Turn rate: -0.8
+Counter: 657
+
+Speed: 1
+Turn rate: -0.8
+Counter: 658
+
+Speed: 1
+Turn rate: 0.4
+Counter: 659
+
+Speed: 1
+Turn rate: 0.4
+Counter: 660
+
+Speed: 1
+Turn rate: 0.4
+Counter: 661
+
+Speed: 1
+Turn rate: 0.4
+Counter: 662
+
+Speed: 1
+Turn rate: 0.4
+Counter: 663
+
+Speed: 1
+Turn rate: 0.4
+Counter: 664
+
+Speed: 1
+Turn rate: 0.4
+Counter: 665
+
+Speed: 1
+Turn rate: 0.4
+Counter: 666
+
+Speed: 1
+Turn rate: -0.4
+Counter: 667
+
+Speed: 1
+Turn rate: -0.4
+Counter: 668
+
+Speed: 1
+Turn rate: 0.4
+Counter: 669
+
+Speed: 1
+Turn rate: 0.4
+Counter: 670
+
+Speed: 1
+Turn rate: 0.4
+Counter: 671
+
+Speed: 1
+Turn rate: 0.4
+Counter: 672
+
+Speed: 1
+Turn rate: 0.4
+Counter: 673
+
+Speed: 1
+Turn rate: 0.4
+Counter: 674
+
+Speed: 1
+Turn rate: 0.4
+Counter: 675
+
+Speed: 1
+Turn rate: 0.4
+Counter: 676
+
+Speed: 1
+Turn rate: -0.4
+Counter: 677
+
+Speed: 1
+Turn rate: 0.4
+Counter: 678
+
+Speed: 1
+Turn rate: -0.4
+Counter: 679
+
+Speed: 1
+Turn rate: -0.4
+Counter: 680
+
+Speed: 1
+Turn rate: -0.4
+Counter: 681
+
+Speed: 1
+Turn rate: -0.4
+Counter: 682
+
+Speed: 1
+Turn rate: -0.4
+Counter: 683
+
+Speed: 1
+Turn rate: -0.4
+Counter: 684
+
+Speed: 1
+Turn rate: -0.4
+Counter: 685
+
+Speed: 1
+Turn rate: -0.4
+Counter: 686
+
+Speed: 1
+Turn rate: -0.4
+Counter: 687
+
+Speed: 1
+Turn rate: -0.4
+Counter: 688
+
+Speed: 1
+Turn rate: -0.4
+Counter: 689
+
+Speed: 1
+Turn rate: -0.4
+Counter: 690
+
+Speed: 1
+Turn rate: -0.4
+Counter: 691
+
+Speed: 1
+Turn rate: -0.4
+Counter: 692
+
+Speed: 1
+Turn rate: -0.4
+Counter: 693
+
+Speed: 1
+Turn rate: -0.4
+Counter: 694
+
+Speed: 1
+Turn rate: -0.4
+Counter: 695
+
+Speed: 1
+Turn rate: -0.4
+Counter: 696
+
+Speed: 1
+Turn rate: -0.4
+Counter: 697
+
+Speed: 1
+Turn rate: -0.4
+Counter: 698
+
+Speed: 1
+Turn rate: -0.4
+Counter: 699
+
+Speed: 1
+Turn rate: -0.4
+Counter: 700
+
+Speed: 1
+Turn rate: -0.4
+Counter: 701
+
+Speed: 1
+Turn rate: -0.4
+Counter: 702
+
+Speed: 1
+Turn rate: -0.4
+Counter: 703
+
+Speed: 1
+Turn rate: -0.4
+Counter: 704
+
+Speed: 1
+Turn rate: -0.4
+Counter: 705
+
+Speed: 1
+Turn rate: -0.4
+Counter: 706
+
+Speed: 1
+Turn rate: -0.4
+Counter: 707
+
+Speed: 1
+Turn rate: -0.4
+Counter: 708
+
+Speed: 1
+Turn rate: -0.4
+Counter: 709
+
+Speed: 1
+Turn rate: -0.4
+Counter: 710
+
+Speed: 1
+Turn rate: -0.4
+Counter: 711
+
+Speed: 1
+Turn rate: -0.4
+Counter: 712
+
+Speed: 1
+Turn rate: -0.4
+Counter: 713
+
+Speed: 1
+Turn rate: -0.4
+Counter: 714
+
+Speed: 1
+Turn rate: -0.4
+Counter: 715
+
+Speed: 1
+Turn rate: -0.4
+Counter: 716
+
+Speed: 1
+Turn rate: -0.4
+Counter: 717
+
+Speed: 1
+Turn rate: -0.4
+Counter: 718
+
+Speed: 1
+Turn rate: -0.4
+Counter: 719
+
+Speed: 1
+Turn rate: -0.4
+Counter: 720
+
+Speed: 1
+Turn rate: -0.8
+Counter: 721
+
+Speed: 1
+Turn rate: -0.8
+Counter: 722
+
+Speed: 1
+Turn rate: -0.8
+Counter: 723
+
+Speed: 1
+Turn rate: -0.8
+Counter: 724
+
+Speed: 1
+Turn rate: -0.8
+Counter: 725
+
+Speed: 1
+Turn rate: -0.8
+Counter: 726
+
+Speed: 1
+Turn rate: -0.8
+Counter: 727
+
+Speed: 1
+Turn rate: -0.8
+Counter: 728
+
+Speed: 1
+Turn rate: -0.4
+Counter: 729
+
+Speed: 1
+Turn rate: -0.4
+Counter: 730
+
+Speed: 1
+Turn rate: -0.4
+Counter: 731
+
+Speed: 1
+Turn rate: -0.4
+Counter: 732
+
+Speed: 1
+Turn rate: -0.4
+Counter: 733
+
+Speed: 1
+Turn rate: -0.4
+Counter: 734
+
+Speed: 1
+Turn rate: -0.4
+Counter: 735
+
+Speed: 1
+Turn rate: -0.4
+Counter: 736
+
+Speed: 1
+Turn rate: -0.4
+Counter: 737
+
+Speed: 1
+Turn rate: -0.4
+Counter: 738
+
+Speed: 1
+Turn rate: -0.4
+Counter: 739
+
+Speed: 1
+Turn rate: -0.4
+Counter: 740
+
+Speed: 1
+Turn rate: -0.4
+Counter: 741
+
+Speed: 1
+Turn rate: 0.4
+Counter: 742
+
+Speed: 1
+Turn rate: 0.4
+Counter: 743
+
+Speed: 1
+Turn rate: 0.4
+Counter: 744
+
+Speed: 1
+Turn rate: 0.4
+Counter: 745
+
+Speed: 1
+Turn rate: 0.4
+Counter: 746
+
+Speed: 1
+Turn rate: 0.4
+Counter: 747
+
+Speed: 1
+Turn rate: 0.4
+Counter: 748
+
+Speed: 1
+Turn rate: 0.4
+Counter: 749
+
+Speed: 1
+Turn rate: 0.4
+Counter: 750
+
+Speed: 1
+Turn rate: 0.4
+Counter: 751
+
+Speed: 1
+Turn rate: 0.4
+Counter: 752
+
+Speed: 1
+Turn rate: 0.4
+Counter: 753
+
+Speed: 1
+Turn rate: 0.4
+Counter: 754
+
+Speed: 1
+Turn rate: 0.4
+Counter: 755
+
+Speed: 1
+Turn rate: 0.4
+Counter: 756
+
+Speed: 1
+Turn rate: 0.4
+Counter: 757
+
+Speed: 1
+Turn rate: 0.4
+Counter: 758
+
+Speed: 1
+Turn rate: 0.4
+Counter: 759
+
+Speed: 1
+Turn rate: 0.4
+Counter: 760
+
+Speed: 1
+Turn rate: 0.4
+Counter: 761
+
+Speed: 1
+Turn rate: 0.4
+Counter: 762
+
+Speed: 1
+Turn rate: 0.4
+Counter: 763
+
+Speed: 1
+Turn rate: 0.4
+Counter: 764
+
+Speed: 1
+Turn rate: 0.4
+Counter: 765
+
+Speed: 1
+Turn rate: 0.4
+Counter: 766
+
+Speed: 1
+Turn rate: 0.4
+Counter: 767
+
+Speed: 1
+Turn rate: 0.4
+Counter: 768
+
+Speed: 1
+Turn rate: 0.4
+Counter: 769
+
+Speed: 1
+Turn rate: 0.4
+Counter: 770
+
+Speed: 1
+Turn rate: 0.4
+Counter: 771
+
+Speed: 1
+Turn rate: 0.4
+Counter: 772
+
+Speed: 1
+Turn rate: 0.8
+Counter: 773
+
+Speed: 1
+Turn rate: 0.8
+Counter: 774
+
+Speed: 1
+Turn rate: 0.8
+Counter: 775
+
+Speed: 1
+Turn rate: 0.8
+Counter: 776
+
+Speed: 1
+Turn rate: 0.8
+Counter: 777
+
+Speed: 1
+Turn rate: 0.8
+Counter: 778
+
+Speed: 1
+Turn rate: 0.8
+Counter: 779
+
+Speed: 1
+Turn rate: 0.8
+Counter: 780
+
+Speed: 1
+Turn rate: 0.8
+Counter: 781
+
+Speed: 1
+Turn rate: 0.8
+Counter: 782
+
+Speed: 1
+Turn rate: 0.8
+Counter: 783
+
+Speed: 1
+Turn rate: 0.8
+Counter: 784
+
+Speed: 1
+Turn rate: 0.8
+Counter: 785
+
+Speed: 1
+Turn rate: 0.8
+Counter: 786
+
+Speed: 1
+Turn rate: 0.4
+Counter: 787
+
+Speed: 1
+Turn rate: 0.4
+Counter: 788
+
+Speed: 1
+Turn rate: 0.4
+Counter: 789
+
+Speed: 1
+Turn rate: 0.4
+Counter: 790
+
+Speed: 1
+Turn rate: 0.4
+Counter: 791
+
+Speed: 1
+Turn rate: 0.4
+Counter: 792
+
+Speed: 1
+Turn rate: 0.4
+Counter: 793
+
+Speed: 1
+Turn rate: 0.4
+Counter: 794
+
+Speed: 1
+Turn rate: 0.4
+Counter: 795
+
+Speed: 1
+Turn rate: 0.4
+Counter: 796
+
+Speed: 1
+Turn rate: 0.4
+Counter: 797
+
+Speed: 1
+Turn rate: 0.4
+Counter: 798
+
+Speed: 1
+Turn rate: -0.4
+Counter: 799
+
+Speed: 1
+Turn rate: -0.4
+Counter: 800
+
+Speed: 1
+Turn rate: -0.4
+Counter: 801
+
+Speed: 1
+Turn rate: -0.4
+Counter: 802
+
+Speed: 1
+Turn rate: -0.4
+Counter: 803
+
+Speed: 1
+Turn rate: -0.4
+Counter: 804
+
+Speed: 1
+Turn rate: -0.4
+Counter: 805
+
+Speed: 1
+Turn rate: -0.4
+Counter: 806
+
+Speed: 1
+Turn rate: -0.4
+Counter: 807
+
+Speed: 1
+Turn rate: -0.4
+Counter: 808
+
+Speed: 1
+Turn rate: -0.4
+Counter: 809
+
+Speed: 1
+Turn rate: -0.4
+Counter: 810
+
+Speed: 1
+Turn rate: -0.4
+Counter: 811
+
+Speed: 1
+Turn rate: -0.4
+Counter: 812
+
+Speed: 1
+Turn rate: -0.4
+Counter: 813
+
+Speed: 1
+Turn rate: -0.4
+Counter: 814
+
+Speed: 1
+Turn rate: -0.4
+Counter: 815
+
+Speed: 1
+Turn rate: -0.4
+Counter: 816
+
+Speed: 1
+Turn rate: 0.4
+Counter: 817
+
+Speed: 1
+Turn rate: 0.4
+Counter: 818
+
+Speed: 1
+Turn rate: 0.4
+Counter: 819
+
+Speed: 1
+Turn rate: 0.4
+Counter: 820
+
+Speed: 1
+Turn rate: 0.4
+Counter: 821
+
+Speed: 1
+Turn rate: 0.4
+Counter: 822
+
+Speed: 1
+Turn rate: 0.4
+Counter: 823
+
+Speed: 1
+Turn rate: 0.4
+Counter: 824
+
+Speed: 1
+Turn rate: 0.4
+Counter: 825
+
+Speed: 1
+Turn rate: 0.4
+Counter: 826
+
+Speed: 1
+Turn rate: 0.4
+Counter: 827
+
+Speed: 1
+Turn rate: 0.4
+Counter: 828
+
+Speed: 1
+Turn rate: 0.4
+Counter: 829
+
+Speed: 1
+Turn rate: 0.4
+Counter: 830
+
+Speed: 1
+Turn rate: 0.8
+Counter: 831
+
+Speed: 1
+Turn rate: 0.8
+Counter: 832
+
+Speed: 1
+Turn rate: 0.8
+Counter: 833
+
+Speed: 1
+Turn rate: 0.8
+Counter: 834
+
+Speed: 1
+Turn rate: 0.8
+Counter: 835
+
+Speed: 1
+Turn rate: 0.8
+Counter: 836
+
+Speed: 1
+Turn rate: 0.8
+Counter: 837
+
+Speed: 1
+Turn rate: 0.8
+Counter: 838
+
+Speed: 1
+Turn rate: 0.4
+Counter: 839
+
+Speed: 1
+Turn rate: 0.4
+Counter: 840
+
+Speed: 1
+Turn rate: -0.4
+Counter: 841
+
+Speed: 1
+Turn rate: -0.4
+Counter: 842
+
+Speed: 1
+Turn rate: -0.4
+Counter: 843
+
+Speed: 1
+Turn rate: -0.4
+Counter: 844
+
+Speed: 1
+Turn rate: -0.4
+Counter: 845
+
+Speed: 1
+Turn rate: -0.4
+Counter: 846
+
+Speed: 1
+Turn rate: -0.4
+Counter: 847
+
+Speed: 1
+Turn rate: -0.4
+Counter: 848
+
+Speed: 1
+Turn rate: -0.4
+Counter: 849
+
+Speed: 1
+Turn rate: -0.4
+Counter: 850
+
+Speed: 1
+Turn rate: -0.4
+Counter: 851
+
+Speed: 1
+Turn rate: -0.4
+Counter: 852
+
+Speed: 1
+Turn rate: -0.4
+Counter: 853
+
+Speed: 1
+Turn rate: -0.4
+Counter: 854
+
+Speed: 1
+Turn rate: -0.4
+Counter: 855
+
+Speed: 1
+Turn rate: -0.4
+Counter: 856
+
+Speed: 1
+Turn rate: -0.4
+Counter: 857
+
+Speed: 1
+Turn rate: 0.4
+Counter: 858
+
+Speed: 1
+Turn rate: 0.4
+Counter: 859
+
+Speed: 1
+Turn rate: 0.4
+Counter: 860
+
+Speed: 1
+Turn rate: 0.4
+Counter: 861
+
+Speed: 1
+Turn rate: 0.4
+Counter: 862
+
+Speed: 1
+Turn rate: 0.4
+Counter: 863
+
+Speed: 1
+Turn rate: 0.4
+Counter: 864
+
+Speed: 1
+Turn rate: 0.4
+Counter: 865
+
+Speed: 1
+Turn rate: 0.4
+Counter: 866
+
+Speed: 1
+Turn rate: 0.4
+Counter: 867
+
+Speed: 1
+Turn rate: 0.4
+Counter: 868
+
+Speed: 1
+Turn rate: 0.4
+Counter: 869
+
+Speed: 1
+Turn rate: 0.4
+Counter: 870
+
+Speed: 1
+Turn rate: 0.4
+Counter: 871
+
+Speed: 1
+Turn rate: 0.4
+Counter: 872
+
+Speed: 1
+Turn rate: 0.4
+Counter: 873
+
+Speed: 1
+Turn rate: 0.4
+Counter: 874
+
+Speed: 1
+Turn rate: 0.4
+Counter: 875
+
+Speed: 1
+Turn rate: 0.4
+Counter: 876
+
+Speed: 1
+Turn rate: 0.4
+Counter: 877
+
+Speed: 1
+Turn rate: 0.4
+Counter: 878
+
+Speed: 1
+Turn rate: 0.4
+Counter: 879
+
+Speed: 1
+Turn rate: 0.4
+Counter: 880
+
+Speed: 1
+Turn rate: 0.4
+Counter: 881
+
+Speed: 1
+Turn rate: 0.4
+Counter: 882
+
+Speed: 1
+Turn rate: 0.4
+Counter: 883
+
+Speed: 1
+Turn rate: 0.4
+Counter: 884
+
+Speed: 1
+Turn rate: 0.4
+Counter: 885
+
+Speed: 1
+Turn rate: 0.4
+Counter: 886
+
+Speed: 1
+Turn rate: 0.4
+Counter: 887
+
+Speed: 1
+Turn rate: 0.4
+Counter: 888
+
+Speed: 1
+Turn rate: 0.4
+Counter: 889
+
+Speed: 1
+Turn rate: 0.4
+Counter: 890
+
+Speed: 1
+Turn rate: 0.4
+Counter: 891
+
+Speed: 1
+Turn rate: 0.4
+Counter: 892
+
+Speed: 1
+Turn rate: 0.4
+Counter: 893
+
+Speed: 1
+Turn rate: 0.4
+Counter: 894
+
+Speed: 1
+Turn rate: 0.4
+Counter: 895
+
+Speed: 1
+Turn rate: 0.4
+Counter: 896
+
+Speed: 1
+Turn rate: 0.4
+Counter: 897
+
+Speed: 1
+Turn rate: 0.4
+Counter: 898
+
+Speed: 1
+Turn rate: 0.4
+Counter: 899
+
+Speed: 1
+Turn rate: 0.4
+Counter: 900
+
+Speed: 1
+Turn rate: 0.4
+Counter: 901
+
+Speed: 1
+Turn rate: 0.4
+Counter: 902
+
+Speed: 1
+Turn rate: -0.4
+Counter: 903
+
+Speed: 1
+Turn rate: -0.4
+Counter: 904
+
+Speed: 1
+Turn rate: -0.4
+Counter: 905
+
+Speed: 1
+Turn rate: -0.4
+Counter: 906
+
+Speed: 1
+Turn rate: -0.4
+Counter: 907
+
+Speed: 1
+Turn rate: -0.4
+Counter: 908
+
+Speed: 1
+Turn rate: -0.4
+Counter: 909
+
+Speed: 1
+Turn rate: -0.4
+Counter: 910
+
+Speed: 1
+Turn rate: -0.4
+Counter: 911
+
+Speed: 1
+Turn rate: -0.4
+Counter: 912
+
+Speed: 1
+Turn rate: -0.4
+Counter: 913
+
+Speed: 1
+Turn rate: -0.4
+Counter: 914
+
+Speed: 1
+Turn rate: -0.8
+Counter: 915
+
+Speed: 1
+Turn rate: -0.8
+Counter: 916
+
+Speed: 1
+Turn rate: -0.8
+Counter: 917
+
+Speed: 1
+Turn rate: -0.8
+Counter: 918
+
+Speed: 1
+Turn rate: -0.8
+Counter: 919
+
+Speed: 1
+Turn rate: -0.8
+Counter: 920
+
+Speed: 1
+Turn rate: -0.8
+Counter: 921
+
+Speed: 1
+Turn rate: -0.8
+Counter: 922
+
+Speed: 1
+Turn rate: -0.8
+Counter: 923
+
+Speed: 1
+Turn rate: -0.8
+Counter: 924
+
+Speed: 1
+Turn rate: -0.8
+Counter: 925
+
+Speed: 1
+Turn rate: -0.8
+Counter: 926
+
+Speed: 1
+Turn rate: -0.8
+Counter: 927
+
+Speed: 1
+Turn rate: -0.8
+Counter: 928
+
+Speed: 1
+Turn rate: -0.4
+Counter: 929
+
+Speed: 1
+Turn rate: 0.4
+Counter: 930
+
+Speed: 1
+Turn rate: 0.4
+Counter: 931
+
+Speed: 1
+Turn rate: 0.4
+Counter: 932
+
+Speed: 1
+Turn rate: 0.4
+Counter: 933
+
+Speed: 1
+Turn rate: 0.4
+Counter: 934
+
+Speed: 1
+Turn rate: 0.4
+Counter: 935
+
+Speed: 1
+Turn rate: 0.4
+Counter: 936
+
+Speed: 1
+Turn rate: 0.4
+Counter: 937
+
+Speed: 1
+Turn rate: 0.4
+Counter: 938
+
+Speed: 1
+Turn rate: 0.4
+Counter: 939
+
+Speed: 1
+Turn rate: 0.4
+Counter: 940
+
+Speed: 1
+Turn rate: 0.4
+Counter: 941
+
+Speed: 1
+Turn rate: 0.4
+Counter: 942
+
+Speed: 1
+Turn rate: 0.4
+Counter: 943
+
+Speed: 1
+Turn rate: 0.4
+Counter: 944
+
+Speed: 1
+Turn rate: 0.4
+Counter: 945
+
+Speed: 1
+Turn rate: 0.4
+Counter: 946
+
+Speed: 1
+Turn rate: 0.4
+Counter: 947
+
+Speed: 1
+Turn rate: 0.4
+Counter: 948
+
+Speed: 1
+Turn rate: 0.4
+Counter: 949
+
+Speed: 1
+Turn rate: -0.4
+Counter: 950
+
+Speed: 1
+Turn rate: 0.4
+Counter: 951
+
+Speed: 1
+Turn rate: 0.4
+Counter: 952
+
+Speed: 1
+Turn rate: 0.4
+Counter: 953
+
+Speed: 1
+Turn rate: 0.4
+Counter: 954
+
+Speed: 1
+Turn rate: 0.4
+Counter: 955
+
+Speed: 1
+Turn rate: 0.4
+Counter: 956
+
+Speed: 1
+Turn rate: 0.4
+Counter: 957
+
+Speed: 1
+Turn rate: 0.4
+Counter: 958
+
+Speed: 1
+Turn rate: 0.4
+Counter: 959
+
+Speed: 1
+Turn rate: 0.4
+Counter: 960
+
+Speed: 1
+Turn rate: 0.4
+Counter: 961
+
+Speed: 1
+Turn rate: 0.4
+Counter: 962
+
+Speed: 1
+Turn rate: 0.4
+Counter: 963
+
+Speed: 1
+Turn rate: 0.4
+Counter: 964
+
+Speed: 1
+Turn rate: 0.4
+Counter: 965
+
+Speed: 1
+Turn rate: 0.4
+Counter: 966
+
+Speed: 1
+Turn rate: 0.4
+Counter: 967
+
+Speed: 1
+Turn rate: 0.4
+Counter: 968
+
+Speed: 1
+Turn rate: 0.4
+Counter: 969
+
+Speed: 1
+Turn rate: 0.4
+Counter: 970
+
+Speed: 1
+Turn rate: 0.4
+Counter: 971
+
+Speed: 1
+Turn rate: 0.4
+Counter: 972
+
+Speed: 1
+Turn rate: 0.4
+Counter: 973
+
+Speed: 1
+Turn rate: 0.4
+Counter: 974
+
+Speed: 1
+Turn rate: 0.4
+Counter: 975
+
+Speed: 1
+Turn rate: 0.4
+Counter: 976
+
+Speed: 1
+Turn rate: 0.4
+Counter: 977
+
+Speed: 1
+Turn rate: 0.4
+Counter: 978
+
+Speed: 1
+Turn rate: 0.4
+Counter: 979
+
+Speed: 1
+Turn rate: 0.4
+Counter: 980
+
+Speed: 1
+Turn rate: 0.4
+Counter: 981
+
+Speed: 1
+Turn rate: 0.4
+Counter: 982
+
+Speed: 1
+Turn rate: 0.4
+Counter: 983
+
+Speed: 1
+Turn rate: 0.4
+Counter: 984
+
+Speed: 1
+Turn rate: 0.4
+Counter: 985
+
+Speed: 1
+Turn rate: 0.4
+Counter: 986
+
+Speed: 1
+Turn rate: 0.4
+Counter: 987
+
+Speed: 1
+Turn rate: 0.4
+Counter: 988
+
+Speed: 1
+Turn rate: 0.4
+Counter: 989
+
+Speed: 1
+Turn rate: 0.4
+Counter: 990
+
+Speed: 1
+Turn rate: 0.4
+Counter: 991
+
+Speed: 1
+Turn rate: 0.4
+Counter: 992
+
+Speed: 1
+Turn rate: 0.4
+Counter: 993
+
+Speed: 1
+Turn rate: 0.4
+Counter: 994
+
+Speed: 1
+Turn rate: 0.4
+Counter: 995
+
+Speed: 1
+Turn rate: 0.4
+Counter: 996
+
+Speed: 1
+Turn rate: 0.4
+Counter: 997
+
+Speed: 1
+Turn rate: 0.4
+Counter: 998
+
+Speed: 1
+Turn rate: 0.4
+Counter: 999
+
+Speed: 1
+Turn rate: 0.4
+Counter: 1000
+
+Best hypothesis...
+X: 5.78394
+Y: -3.51557
+A: 1.30109
+W: 1
+Success!
+I am 100% sure that I am at (5.78394, -3.51557)...

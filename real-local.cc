@@ -1,19 +1,27 @@
-/**
- * real-local.cc
+/*
+ *  CISC-3415 Robotics
+ *  Project 4 - Part 2
+ *  Credit To: Simon Parsons
+ *
+ ** Group Members *************************************************************
+ *    
+ *  Benjamin Yi
+ *  Emmanuel Desdunes
+ *  Montasir Omi
+ *  Shahzad Ahmad
+ *
+ ** Description ***************************************************************
  * 
- * Sample code for a robot that has two front bumpers and a laser scanner,
- * and. Suitable for use with the roomba.
- *
- * This version is intended to run with the AMCL localization proxy,
- * which provides multiple hypotheses.
- *
- * Written by: Simon Parsons
- * Date:       22nd November 2009
- *  
- **/
+ *  In this program, the simulated robot uses its laser functionality to first
+ *  scan the map in order to determine its position. Once the robot has
+ *  traveled some distance, if the robot has only two hypotheses of its
+ *  location remaining, it will choose the best hypotheses, only if it is at
+ *  least 99% sure, otherwise it will continue to scan. 
+ */
 
 
 #include <iostream>
+#include <fstream>
 #include <libplayerc++/playerc++.h>
 using namespace PlayerCc;  
 
@@ -33,22 +41,17 @@ void printRobotData(BumperProxy& bp, player_pose2d_t pose);
 
 int main(int argc, char *argv[])
 {  
-  double coords[11][2] = {{-6,-6},{1,-5},{3.7,-7.3},{-6.5,-2},{-7,5.5},{-5,7},{-4,5.5},{5,5.5},{5,0},{5,-3.5},{1.5,-7.8}};
-  int map[11] = {9,9,9,1,6,6,7,8,9,-1,2};
   // Variables
+  int counter = 0;
+  int main_counter = 0;
+  int bumped = 0;
   int hc = 0;
-  int counter = 0, main_counter = 0;
-  int started = 1, arrived = 0, bumped = 0;
-  int finding_angle = 0, traveling = 0;
-  int curr_coord = 0, next_coord = 0;
-  double curr_x, curr_y, curr_a;
-  double targ_x=0, targ_y=0, targ_a=0;
-  double angle_away, dist_away, dx, dy;
   double speed;            // How fast do we want the robot to go forwards?
   double turnrate;         // How fast do we want the robot to turn?
   player_pose2d_t  pose;   // For handling localization data
   player_laser_data laser; // For handling laser data
-
+  std::ofstream ofs;
+  ofs.open("log.txt");
   // Set up proxies. These are the names we will use to connect to 
   // the interface to the robot.
   PlayerClient    robot("localhost");  
@@ -75,27 +78,30 @@ int main(int argc, char *argv[])
 
       // Print data on the robot to the terminal
       printRobotData(bp, pose);
+      
       hc = lp.GetHypothCount();
       // If either bumper is pressed, stop. Otherwise just go forwards
       if (bumped) {
         if (counter < 50) {
           speed = -0.5;
-          turnrate = 0.4;
+          turnrate = -0.4;
         } else {
           counter = 0;
           bumped = 0;
-          turnrate = 0.0;
           speed = 0.5;
+          turnrate = 0.0;
         }
         counter ++;
       } else if(bp[0] || bp[1]){
 	speed= 0;
 	turnrate= 0;
-        bumped = true;
-      } else if (main_counter > 750 &&hc <= 2) {
+        bumped = 1;
+      // After 1000 iterations, and if hypoth count <= 2
+      // Record the current best hypothesis
+      } else if (main_counter > 1000 && hc <= 2) {
         player_localize_hypoth hypo;
         player_pose2d_t pose;
-       	double best = 0.0;
+        double best = 0.0;
         int best_index = 0;
         for (int i = 0; i < hc; i++) {
           hypo = lp.GetHypoth(i);
@@ -103,75 +109,61 @@ int main(int argc, char *argv[])
           if (hypo.alpha > best) {
             best = hypo.alpha;
             best_index = i;
-          } 
+          }
         }
         hypo = lp.GetHypoth(best_index);
         pose = hypo.mean;
-        std::cout << "Best hypothesis...." << std::endl;
-        std::cout << "X: " << pose.px << std::endl;        
-        std::cout << "Y: " << pose.py << std::endl;        
-        std::cout << "A: " << pose.pa << std::endl;        
-        std::cout << "W: " << best << std::endl;        
-        
+        std::cout << "Best hypothesis..." << std::endl;
+        std::cout << "X: " << pose.px  << std::endl;
+        std::cout << "Y: " << pose.py  << std::endl;
+        std::cout << "A: " << pose.pa  << std::endl;
+        std::cout << "W: " << best << std::endl;
+        ofs << "Best hypothesis..." << std::endl;
+        ofs << "X: " << pose.px  << std::endl;
+        ofs << "Y: " << pose.py  << std::endl;
+        ofs << "A: " << pose.pa  << std::endl;
+        ofs << "W: " << best << std::endl;
+        // If the best hypothesis is 99% certain, we've done a successful run.
         if (best > 0.99) {
-          std::cout << "Success!!" << std::endl;
+          std::cout << "Success!" << std::endl;
+          std::cout << "I am " << best << " sure that I am at ";
+          std::cout << "(" << pose.px << ", " << pose.py << ")..." << std::endl;
+          ofs << "Success!" << std::endl;
+          ofs << "I am " << best*100 << "% sure that I am at ";
+          ofs << "(" << pose.px << ", " << pose.py << ")..." << std::endl;
           pp.SetSpeed(0, 0);
           break;
         }
-        counter = 200;
+        main_counter = 200;
       } else {
-        double totaldist = sp.MinLeft() + sp.MinRight(); 
-        
-        // If distance of LEFT+RIGHT is less than 2.1, we are close
-        // to the wall, so swap turnrates and SLOW DOWN!
-        // (This prevents circular motion at the goal zone) 
-        if (totaldist > 0 && totaldist < 2.1) {
-          speed = 0.5;
-          if (sp.MinLeft() < sp.MinRight()) {
-            turnrate = 0.8;
-          } else {
-            turnrate = -0.8;
-          }
-        // If there are no limiations, stay evenly in the middle
-        // by turning TOWARDS the further wall and closing the gap.
+        // Navigation adjustments using laser data
+        speed = 1.0;
+        if (sp.MinLeft() < 1.2) {
+          turnrate = -0.8;
+        } else if (sp.MinRight() < 1.2) {
+          turnrate = 0.8;
         } else {
-          speed = 1.0;
-          if (sp.MinLeft() < sp.MinRight()) {
-            turnrate = -0.4;
-          } else {
-            turnrate = 0.4;
-          }
+          if (sp.MinLeft() < sp.MinRight()) turnrate = -0.4;
+          else turnrate = 0.4;
         }
       }     
 
       // What are we doing?
       std::cout << "Speed: " << speed << std::endl;      
-      std::cout << "Turn rate: " << turnrate << std::endl << std::endl;
+      std::cout << "Turn rate: " << turnrate << std::endl;
       std::cout << "Counter: " << main_counter << std::endl << std::endl;
-
+      ofs << "Speed: " << speed << std::endl;      
+      ofs << "Turn rate: " << turnrate << std::endl;
+      ofs << "Counter: " << main_counter << std::endl << std::endl;
       // Send the commands to the robot
       pp.SetSpeed(speed, turnrate);  
       // Count how many times we do this
+      counter++;
       main_counter++;
     }
+  ofs.close();
   
 } // end of main()
-
-int indexOfClosest(double x, double y, double coords[11][2]) {
-  double minDist = 99999999, dist;
-  double dx, dy;
-  int idx = -1;
-  for (int i = 0; i < 11; i++) {
-    dx = x-coords[i][0];
-    dy = y-coords[i][1];
-    dist = sqrt(dx*dx+dy*dy);
-    if (dist < minDist) {
-      minDist = dist;
-      idx = i;
-    }
-  } 
-  return idx;
-}
 
 /**
  * readPosition()
