@@ -1,16 +1,23 @@
-/**
- * real-local.cc
+/*
+ *  CISC-3415 Robotics
+ *  Project 4 - Part 2
+ *  Credit To: Simon Parsons
+ *
+ ** Group Members *************************************************************
+ *    
+ *  Benjamin Yi
+ *  Emmanuel Desdunes
+ *  Montasir Omi
+ *  Shahzad Ahmad
+ *
+ ** Description ***************************************************************
  * 
- * Sample code for a robot that has two front bumpers and a laser scanner,
- * and. Suitable for use with the roomba.
- *
- * This version is intended to run with the AMCL localization proxy,
- * which provides multiple hypotheses.
- *
- * Written by: Simon Parsons
- * Date:       22nd November 2009
- *  
- **/
+ *  In this program, the simulated robot uses its laser functionality to first
+ *  scan the map in order to determine its position. Once the robot has
+ *  traveled some distance, if the robot has only two hypotheses of its
+ *  location remaining, it will choose the best hypotheses, only if it is at
+ *  least 99% sure, otherwise it will continue to scan. 
+ */
 
 
 #include <iostream>
@@ -33,16 +40,9 @@ void printRobotData(BumperProxy& bp, player_pose2d_t pose);
 
 int main(int argc, char *argv[])
 {  
-  double coords[11][2] = {{-6,-6},{1,-5},{3.7,-7.3},{-6.5,-2},{-7,5.5},{-5,7},{-4,5.5},{5,5.5},{5,0},{5,-3.5},{1.5,-7.8}};
-  int map[11] = {9,9,9,1,6,6,7,8,9,-1,2};
   // Variables
   int counter = 0;
-  int started = 1, arrived = 0, bumped = 0;
-  int finding_angle = 0, traveling = 0;
-  int curr_coord = 0, next_coord = 0;
-  double curr_x, curr_y, curr_a;
-  double targ_x=0, targ_y=0, targ_a=0;
-  double angle_away, dist_away, dx, dy;
+  int bumped = 0;
   double speed;            // How fast do we want the robot to go forwards?
   double turnrate;         // How fast do we want the robot to turn?
   player_pose2d_t  pose;   // For handling localization data
@@ -129,22 +129,6 @@ int main(int argc, char *argv[])
     }
   
 } // end of main()
-
-int indexOfClosest(double x, double y, double coords[11][2]) {
-  double minDist = 99999999, dist;
-  double dx, dy;
-  int idx = -1;
-  for (int i = 0; i < 11; i++) {
-    dx = x-coords[i][0];
-    dy = y-coords[i][1];
-    dist = sqrt(dx*dx+dy*dy);
-    if (dist < minDist) {
-      minDist = dist;
-      idx = i;
-    }
-  } 
-  return idx;
-}
 
 /**
  * readPosition()

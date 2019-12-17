@@ -1,13 +1,24 @@
-/**
- * local-roomba.cc
- * 
- * Sample code for a roomba-like robot that has two front bumpers and
- * magically knows where it is. 
+/*
+ *  CISC-3415 Robotics
+ *  Project 4 - Part 1
+ *  Credit To: Simon Parsons
  *
- * Written by: Simon Parsons
- * Date:       24th October 2011
- *  
- **/
+ ** Group Members *************************************************************
+ *    
+ *  Benjamin Yi
+ *  Emmanuel Desdunes
+ *  Montasir Omi
+ *  Shahzad Ahmad
+ *
+ ** Description ***************************************************************
+ * 
+ *  This program allows the robot to move around predetermined coordinates
+ *  on the map. By finding the tangential angle using the difference in x and y
+ *  coordinates from its current position and the goal position. 
+ *  There are a total of 11 pre-recorded coordinates as a topological mapping
+ *  of the simulated map. When a robot is lost, it will first first the closest
+ *  coordinate, and then following the mapping to the final goal location.
+ */
 
 
 #include <iostream>
@@ -73,6 +84,10 @@ int main(int argc, char *argv[])
       curr_x = pose.px;
       curr_y = pose.py;
       curr_a = pose.pa;
+      targ_x = coords[next_coord][0];
+      targ_y = coords[next_coord][1];
+      targ_a = atan2(targ_y-curr_y, targ_x-curr_x);           
+      angle_away = rtod(targ_a)-rtod(curr_a);
       // if (curr_a < 0) curr_a = 2*M_PI + curr_a;
       
       if (bumped) {
@@ -85,10 +100,6 @@ int main(int argc, char *argv[])
         }
         counter++;
       } else if (finding_angle) {
-        targ_x = coords[next_coord][0];
-        targ_y = coords[next_coord][1];
-        targ_a = atan2(targ_y-curr_y, targ_x-curr_x);           
-        angle_away = rtod(targ_a)-rtod(curr_a);
         if (abs(angle_away) < 1) {
           turnrate = 0;
           speed = 1.0;
@@ -100,11 +111,13 @@ int main(int argc, char *argv[])
           speed = 0;
         }
       } else if (traveling) {
+        
         dx = curr_x-targ_x;
         dy = curr_y-targ_y;
         dist_away = sqrt(dx*dx+dy*dy);
         speed = 1.0;
-        turnrate = 0.0;
+        if (angle_away < 0) turnrate = -0.4;
+        else turnrate = 0.4;
         if (dist_away < 0.5) {
           started = 1;
           speed = 0.0;
